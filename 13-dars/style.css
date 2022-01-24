@@ -1,0 +1,162 @@
+@import url("https://use.typekit.net/uum0iwf.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: lato, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+html body header {
+  width: 100%;
+  height: 1520vh;
+  background-image: url("./img/header.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: top;
+  background-attachment: fixed;
+}
+html body header .navbar-menu {
+  width: 1110px;
+  margin: 0px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+html body header .navbar-menu div {
+  padding-top: 19px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  height: auto;
+}
+html body header .navbar-menu div a {
+  color: #cb0a15;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+html body header .navbar-menu ul {
+  display: flex;
+  z-index: 2;
+}
+html body header .navbar-menu ul li {
+  display: inline-block;
+}
+html body header .navbar-menu ul li a {
+  color: #543e3e;
+  font-size: 18px;
+  padding: 22px 25px;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html body header .navbar-menu ul li a:hover {
+  background-color: #515151;
+  color: #fff;
+  cursor: url("./cursor/cursor.png"), auto;
+}
+html body header .brend {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1110px;
+  margin: auto;
+  height: 600px;
+  text-align: center;
+  transform: translateY(-70px);
+}
+html body header .brend h2 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #cb0a15;
+}
+html body header .brend p {
+  color: #4d4d4d;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 45px;
+}
+html body header .brend p span {
+  font-weight: 700;
+}
+html body #products {
+  width: 1110px;
+  margin: 100px auto 110px auto;
+  display: flex;
+  justify-content: space-between;
+}
+html body #products .products-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 48%;
+}
+html body #products .products-left div {
+  line-height: 25px;
+}
+html body #products .products-left div img {
+  border: 3px solid #000;
+}
+html body #products .products-left div h2 {
+  margin-bottom: 31px;
+  font-size: 25px;
+  font-weight: 700;
+}
+html body #products .products-left div p {
+  color: #919191;
+  font-weight: 400;
+  font-size: 16px;
+}
+html body #products .products-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 48%;
+}
+html body #products .products-right div.product {
+  display: flex;
+  line-height: 22px;
+}
+html body #products .products-right div.product img {
+  margin-right: 25px;
+  border: 2px solid #000;
+}
+html body #products .products-right div.product h2 {
+  font-size: 20px;
+  margin: 10px 0 30px 0;
+}
+html body #products .products-right div.product p {
+  font-size: 16px;
+}
+html body #about {
+  width: 100%;
+  background-color: #91919145;
+}
+html body #about .boxs {
+  width: 1110px;
+  margin: 0 auto;
+  padding: 50px 0 47px 0;
+  display: flex;
+  justify-content: space-between;
+}
+html body #about .boxs h2 {
+  margin-bottom: 22px;
+}
+html body #about .boxs h2 span {
+  color: red;
+}
+html body #about .boxs ul li a {
+  color: #828080;
+  text-decoration: underline;
+  line-height: 25px;
+}
+html body #about .boxs ul li a:hover {
+  color: red;
+  cursor: url("./cursor/cursor.png"), auto;
+}
+
+/*# sourceMappingURL=style.css.map */
