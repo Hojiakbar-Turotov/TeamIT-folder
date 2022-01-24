@@ -1,0 +1,459 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 20px 10px;
+  margin: 0 auto;
+}
+
+.row {
+  width: calc(100% - 20px);
+  margin: 0 auto;
+}
+
+.col {
+  display: inline-block;
+  width: calc(100% - 10px);
+  margin: 0 auto;
+}
+
+.col-md-1 {
+  width: calc(8.3333333333% - 10px);
+  margin: 0 auto;
+}
+
+.col-md-7-12 {
+  width: calc(14.2857142857% - 10px);
+  margin: 0 auto;
+}
+
+.col-md-2 {
+  width: calc(16.6666666667% - 10px);
+  margin: 0 auto;
+}
+
+.col-md-3 {
+  width: calc(25% - 10px);
+  margin: 0 auto;
+}
+
+.col-md-4 {
+  width: calc(33.3333333333% - 10px);
+  margin: 0 auto;
+}
+
+.col-md-5 {
+  width: calc(41.6666666667% - 10px);
+  margin: 0 auto;
+}
+
+.col-md-6 {
+  width: calc(50% - 10px);
+  margin: 0 auto;
+}
+
+.col-md-7 {
+  width: calc(58.3333333333% - 10px);
+  margin: 0 auto;
+}
+
+.col-md-8 {
+  width: calc(66.6666666667% - 10px);
+  margin: 0 auto;
+}
+
+.col-md-9 {
+  width: calc(75% - 10px);
+  margin: 0 auto;
+}
+
+.col-md-10 {
+  width: calc(83.3333333333% - 10px);
+  margin: 0 auto;
+}
+
+.col-md-11 {
+  width: calc(91.6666666667% - 10px);
+  margin: 0 auto;
+}
+
+.col-md-12 {
+  width: calc(100% - 10px);
+  margin: 0 auto;
+}
+
+body header {
+  background-image: url("./img/Home Back.jpeg");
+  height: 100vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: fixed;
+}
+body header .fon {
+  background-color: #00000099;
+  height: 100vh;
+}
+body header .fon .container .navUp .navbarUp {
+  padding-top: 40px;
+}
+body header .fon .container .navUp .navbarUp a {
+  fill: #fff;
+  font-size: 24px;
+}
+body header .fon .container .navUp .menuUp a {
+  color: #fff;
+  font-size: 14px;
+  padding: 5px;
+  transition: 1s;
+}
+body header .fon .container .navUp .menuUp a:hover {
+  border-radius: 8px;
+  color: #0b0336;
+}
+body header .fon .container .header-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  color: #fff;
+}
+body header .fon .container .header-body h1 {
+  font-size: 48px;
+}
+body header .fon .container .header-body h2 {
+  font-size: 18px;
+  margin: 25px 0 49px 0;
+  font-weight: normal;
+}
+body header .fon .container .header-body p {
+  font-size: 16px;
+  padding: 20px 34px 18px 36px;
+  border: 1px solid #fff;
+  font-variant: small-caps;
+}
+body #services {
+  margin: 90px 0 100px 0;
+}
+body #services .container .services-head {
+  margin-bottom: 70px;
+}
+body #services .container .services-head .col-md-12 {
+  text-align: center;
+  color: #555;
+}
+body #services .container .services-head .col-md-12 h2 {
+  font-size: 20px;
+}
+body #services .container .services-head .col-md-12 .underline {
+  height: 3px;
+  width: 51px;
+  margin: 28px auto;
+  background-color: #555;
+}
+body #services .container .services-head .col-md-12 p {
+  font-size: 16px;
+}
+body #services .container .services-body .col-md-4 {
+  text-align: center;
+  color: #555;
+  font-size: 14px;
+}
+body #services .container .services-body .col-md-4 img {
+  width: 91px !important;
+}
+body #services .container .services-body .col-md-4 img.bg-color {
+  border-radius: 50%;
+  background-color: #c0301c;
+}
+body #services .container .services-body .col-md-4 h3 {
+  margin: 29px auto;
+}
+body #services .container .services-body .col-md-4 p {
+  padding: 0 12.5px;
+}
+body #about-us {
+  margin: 50px 0;
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+body #about-us .container .about-us-head {
+  margin-bottom: 70px;
+}
+body #about-us .container .about-us-head .col-md-12 {
+  text-align: center;
+  color: #555;
+}
+body #about-us .container .about-us-head .col-md-12 h2 {
+  font-size: 20px;
+}
+body #about-us .container .about-us-head .col-md-12 .underline {
+  height: 3px;
+  width: 51px;
+  margin: 28px auto;
+  background-color: #555;
+}
+body #about-us .container .about-us-head .col-md-12 p {
+  font-size: 16px;
+}
+body #about-us .container .about-us-body .col-md-6 .header-text {
+  width: 100%;
+  font-size: 13px;
+  margin-bottom: 70px;
+  padding: 0 30px 0 10px;
+}
+body #about-us .container .about-us-body .col-md-6 .row .col-md-6 {
+  text-align: center;
+}
+body #about-us .container .about-us-body .col-md-6 .row .col-md-6 img {
+  width: calc(100% - 10px);
+}
+body #about-us .container .about-us-body .col-md-6 .row .col-md-6:nth-child(1) {
+  margin-right: 15.5px;
+}
+body #works {
+  margin: 100px 0;
+}
+body #works .container .works-head {
+  margin-bottom: 70px;
+}
+body #works .container .works-head .col-md-12 {
+  text-align: center;
+  color: #555;
+}
+body #works .container .works-head .col-md-12 h2 {
+  font-size: 20px;
+}
+body #works .container .works-head .col-md-12 .underline {
+  height: 3px;
+  width: 51px;
+  margin: 28px auto;
+  background-color: #555;
+}
+body #works .container .works-head .col-md-12 .row {
+  font-size: 16px;
+}
+body #works .container .works-head .col-md-12 .row .col-md-5 .row.works-hover .col:hover {
+  cursor: pointer;
+  color: #c0301c;
+}
+body #works .container .works-body .col-md-4 {
+  margin: 10px;
+  width: calc(33.3333333333% - 30px);
+}
+body #works .container .works-body .col-md-4 img {
+  width: 100%;
+}
+body #question {
+  background-image: url("./img/back2.jpeg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+body #question div {
+  width: 100%;
+  height: 100%;
+  background-color: #c02f1c71;
+  padding: 100px 0 100px 0;
+}
+body #question div h2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 50px;
+}
+body #question div .btn {
+  font-size: 18px;
+  padding: 9px 0;
+  text-align: center;
+  border: 1px solid #fff;
+  font-variant: small-caps;
+  width: 156px;
+  margin: 0 auto;
+  color: #fff;
+  margin-top: 50px;
+}
+body #post {
+  margin: 50px 0;
+  padding: 50px 0;
+}
+body #post .container .post-head {
+  margin-bottom: 70px;
+}
+body #post .container .post-head .col-md-12 {
+  text-align: center;
+  color: #555;
+}
+body #post .container .post-head .col-md-12 h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+body #post .container .post-head .col-md-12 .underline {
+  height: 3px;
+  width: 51px;
+  margin: 28px auto;
+  background-color: #555;
+}
+body #post .container .post-head .col-md-12 p {
+  font-size: 16px;
+}
+body #post .container .post-body .col-md-5 img {
+  width: 95%;
+}
+body #post .container .post-body .col-md-7 .box .box-head {
+  padding-bottom: 25px;
+}
+body #post .container .post-body .col-md-7 .box .box-head .col-md-2 .box {
+  width: 100%;
+  border: 2px solid #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 77px;
+  width: 77px;
+  text-align: center;
+  font-size: 24px;
+  color: #777;
+}
+body #post .container .post-body .col-md-7 .box .box-head .col-md-10 h3 {
+  color: #c0301c;
+  text-transform: uppercase;
+  font-size: 16px;
+  transform: translateY(10px);
+}
+body #post .container .post-body .col-md-7 .box .box-head .col-md-10 p {
+  font-size: 13px;
+  transform: translateY(20px);
+}
+body #post .container .post-body .col-md-7 .box .box-head .col-md-10 p span {
+  color: #c0301c;
+}
+body #post .container .post-body .col-md-7 .box p {
+  color: #555;
+  font-size: 14px;
+}
+body #post .container .post-body .col-md-7 .box .read-mo {
+  padding: 34px 0 60px 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #c0301c;
+  font-weight: 800;
+}
+body #post .container .post-body.two {
+  margin-top: 74px;
+}
+body #post .container .post-body.two * {
+  color: #555 !important;
+}
+body #brends {
+  text-align: center;
+  color: #555;
+  font-size: 18px;
+}
+body #brends .container .row img {
+  margin-bottom: 70px;
+}
+body #brends .container .row .col-md-9 p {
+  font-style: italic;
+}
+body #brends .container .sliders {
+  width: 54px;
+  margin: 39px auto 100px auto;
+  display: flex;
+  justify-content: space-between;
+}
+body #brends .container .sliders .slider {
+  border-radius: 50%;
+  background-color: #555;
+  width: 14px;
+  height: 14px;
+}
+body #brends .container .sliders .slider.active {
+  background-color: #c0301c !important;
+}
+body #touch {
+  margin: 50px 0;
+  padding: 50px 0;
+}
+body #touch .container .touch-head {
+  margin-bottom: 70px;
+}
+body #touch .container .touch-head .col-md-12 {
+  text-align: center;
+  color: #555;
+}
+body #touch .container .touch-head .col-md-12 h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+body #touch .container .touch-head .col-md-12 .underline {
+  height: 3px;
+  width: 51px;
+  margin: 28px auto;
+  background-color: #555;
+}
+body #touch .container .touch-head .col-md-12 p {
+  font-size: 16px;
+}
+body #touch .container .touch-body .col .box {
+  padding: 10px 0;
+}
+body #touch .container .touch-body .col .box h3 {
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+body #touch .container .touch-body .col .box h3 img {
+  margin-right: 15px;
+}
+body #touch .container .touch-body .col .box p {
+  padding: 10px 28px;
+  line-height: 16px;
+  font-size: 12px;
+}
+body #touch .container .touch-body .col .touch-body-head .col input {
+  width: 95%;
+  height: 45px;
+  padding: 0 20px;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+body #touch .container .touch-body .col .touch-body-head .col input:active, body #touch .container .touch-body .col .touch-body-head .col input:hover {
+  outline-color: #c0301c;
+}
+body #touch .container .touch-body .col .touch-body-body textarea {
+  width: 96%;
+  height: 105px;
+  padding: 10px 0 0 20px;
+  text-align: start;
+  resize: none;
+  margin-bottom: 20px;
+}
+body #touch .container .touch-body .col .touch-body-body textarea:active, body #touch .container .touch-body .col .touch-body-body textarea:hover {
+  outline-color: #c0301c;
+}
+body #touch .container .touch-body .col .touch-body-footer .col-md-4 {
+  height: 45px;
+  width: 171px;
+  border: 1px solid #000 !important;
+}
+
+/*# sourceMappingURL=style.css.map */

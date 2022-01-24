@@ -1,0 +1,13 @@
+.menu-icon{
+    background-color: #000;
+    height: 20px;
+    width: 200px;
+}
+.menu-nav{
+    /* opacity: 0; */
+    color:red;
+}
+.menu-icon:hover .menu-nav{
+    /* opacity: 1!important; */
+    color:green;
+}
