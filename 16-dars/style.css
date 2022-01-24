@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.col {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-md-3 {
+  width: 25%;
+}
+
+.col-md-4 {
+  width: 33%;
+}
+
+.col-md-5 {
+  width: 41%;
+}
+
+.col-md-6 {
+  width: 50%;
+}
+
+body header {
+  background-image: url(./img/headervictor-garcia-1263465-unsplash@1X.jpeg);
+  background-size: cover;
+  height: 100vh;
+  padding-top: 25px;
+}
+body header .container .nav {
+  display: flex;
+  justify-content: space-between;
+}
+body header .container .nav .logo a {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+body header .container .nav .logo a span {
+  color: #927908;
+}
+body header .container .nav ul.menu li {
+  padding: 1px 15px;
+}
+body header .container .nav ul.menu li a {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+body header .container .nav ul.menu li a.active, body header .container .nav ul.menu li a:hover {
+  color: #b78601;
+}
+body header .container .header {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+body header .container .header .container {
+  width: 100%;
+}
+body header .container .header .container h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 45px;
+  font-weight: 300;
+}
+body header .container .header .container h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 55px;
+  font-weight: 300;
+  margin-top: 70px;
+  margin-bottom: 35px;
+  color: #927908;
+}
+body header .container .header .container p {
+  margin-bottom: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 200;
+}
+body header .container .header .container a {
+  border: 2px solid #fff;
+  border-radius: 50px;
+  padding: 23px 73px 22px 75px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+}
+body header .container .header .container a:hover {
+  color: #927908;
+}
+body #gallery {
+  margin-bottom: 70px;
+}
+body #gallery .container h3 {
+  color: #565656;
+  margin: 152px 0 84px 0;
+}
+body #gallery .container .art-gallery .art-list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+body #about-peoples {
+  background-color: #181818;
+}
+body #about-peoples h2 {
+  padding: 152px 0 101px 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+}
+body #about-peoples .col .col-md-4 .img {
+  overflow: hidden;
+  width: 151px;
+  height: 151px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+body #about-peoples .col .col-md-4 .img img {
+  transform: translate(-10px, -20px);
+}
+body #about-peoples .col .col-md-4 h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0 27px 0;
+}
+body #about-peoples .col .col-md-4 h3 span {
+  display: inline-block;
+  padding-left: 17px;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+}
+body #about-peoples .col .col-md-4 p {
+  line-height: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+body #about-product .container h2 {
+  margin: 151px 0 104px 0;
+  color: #181818;
+}
+body #about-product .container .col .col-md-3 {
+  border: 1px solid #000;
+  margin: 0 14px;
+  background-color: #181818;
+}
+body #about-product .container .col .col-md-3:first-child {
+  margin-left: 0;
+}
+body #about-product .container .col .col-md-3:last-child {
+  margin-right: 0;
+}
+body #about-product .container .col .col-md-3 img {
+  width: 100%;
+}
+body #about-product .container .col .col-md-3 h3 {
+  margin: 26px 0px 22px 32px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+body #about-product .container .col .col-md-3 p {
+  margin: 0 53px 40px 32px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+}
+body #about-me {
+  margin-top: 150px;
+  background-image: url("./img/body-back-alesia-kazantceva-283291-unsplash@1X.jpeg");
+  background-size: cover;
+}
+body #about-me .fon {
+  padding-bottom: 101px;
+  background-color: #181818aa;
+}
+body #about-me .fon .container h2 {
+  padding: 201px 0 37px 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+}
+body #about-me .fon .container p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 25px;
+  padding-right: 200px;
+}
+body #about-me .fon .container .btn {
+  margin-top: 99px;
+  display: inline-block;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  padding: 23px 73px 22px 75px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+}
+body #about-me .fon .container .btn:hover {
+  color: #927908;
+}
+body footer {
+  background-color: #181818;
+  padding: 100px 0 30px 0;
+}
+body footer .container .col .col-md-6 h2 {
+  padding: 0 0 35px 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+body footer .container .col .col-md-6 h2 span {
+  color: #927908;
+}
+body footer .container .col .col-md-6 p {
+  padding: 0 0 35px 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+}
+body footer .container .col .col-md-6 p span {
+  color: #927908;
+}
+body footer .container .col .col-md-5 ul.menu li a:hover {
+  color: #927908;
+}
+body footer .container .col .col-md-5 .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  min-height: 110px;
+}
+body footer .container .data {
+  text-align: center;
+}
+body footer .container .data span {
+  color: #927908;
+}
+
+/*# sourceMappingURL=style.css.map */

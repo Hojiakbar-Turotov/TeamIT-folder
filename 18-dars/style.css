@@ -1,0 +1,22 @@
+:root {
+    --rang: red;
+}
+
+h1 {
+    color: var(--rang);
+}
+
+.row {
+    width: 1000px;
+    height: 700px;
+    border: 1px solid red;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.col-lg-4 {
+    width: calc(100% / 3 - 2px);
+    height: 200px;
+    border: 1px solid black;
+}

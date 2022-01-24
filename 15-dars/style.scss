@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1110px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.col {
+    display: flex;
+    justify-content: space-between;
+    .col-md-4 {
+        width: 33%;
+    }
+    .col-md-8 {
+        width: 66%;
+    }
+}
+body {
+    header {
+        background: linear-gradient(to right, #693b2e, #f39222, #693b2e);
+        height: 70vh;
+        padding-top: 20px;
+        .nav {
+            background-color: #f7f7f7;
+            padding: 24px 0;
+            .container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .brend {
+                    a {
+                        display: flex;
+                        align-items: center;
+                        h1 {
+                            font-size: 47px;
+                            margin-left: 23px;
+                            color: #000000;
+                            span {
+                                color: #b02b05aa;
+                            }
+                        }
+                    }
+                }
+                .menu {
+                    ul {
+                        width: 500px;
+                        justify-content: space-between;
+                        font-size: 25px;
+                        li {
+                            a {
+                                color: #000;
+                                &.active,
+                                &:hover {
+                                    color: #c53005;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .head-body {
+            .container {
+                h1 {
+                    text-align: center;
+                    margin-top: 60px;
+                    margin-bottom: 75px;
+                    color: #fff;
+                    font: {
+                        weight: 400px;
+                        size: 80px;
+                        family: "Lora", serif;
+                    }
+                }
+            }
+        }
+    }
+    #product {
+        background-color: #f3f3f3;
+        padding-top: 36px;
+        padding-bottom: 40px;
+        .container {
+            .boxs {
+                display: flex;
+                justify-content: space-between;
+                .box {
+                    text-align: center;
+                    border-right: 1px solid #00000060;
+                    padding: 0 50px 0 50px;
+                    height: 320px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    &:nth-child(4) {
+                        border: 0;
+                    }
+                    h1 {
+                        font-size: 26px;
+                        font-family: "Lora", serif;
+                        padding: 20px 0 15px 0;
+                    }
+                    img {
+                        margin: 0 auto 0 auto;
+                    }
+                    a {
+                        margin: 18px auto 15px auto;
+                        background-color: #fff;
+                        text-align: center;
+                        align-items: center;
+                        padding: 15px 20px;
+                        border-radius: 8px;
+                        color: #696969;
+                        font: {
+                            style: 14px;
+                            family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+                                sans-serif;
+                        }
+                        border: 1px solid #94949470;
+                    }
+                }
+            }
+        }
+    }
+    #about {
+        margin: 50px auto;
+        .container {
+            .col {
+                .col-md-8 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .head {
+                        h2 {
+                            font: {
+                                weight: 100 !important;
+                                size: 30px;
+                                family: "Lora", serif;
+                            }
+                        }
+                        p {
+                            font: {
+                                color: #8c8c8c;
+                                style: italic;
+                                weight: 100;
+                                size: 17px;
+                                family: "Lora", serif;
+                            }
+                        }
+                    }
+                    .body {
+                        padding-right: 70px;
+                        p {
+                            color: #696969;
+                            font: {
+                                family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+                                    sans-serif;
+                                size: 17px;
+                            }
+                            a {
+                                color: #c53005;
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                    .footer {
+                        .btn {
+                            background-color: #fff;
+                            text-align: center;
+                            align-items: center;
+                            padding: 15px 20px;
+                            border-radius: 8px;
+                            color: #696969;
+                            font: {
+                                style: 14px;
+                                family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+                                    sans-serif;
+                            }
+                            border: 1px solid #94949470;
+                        }
+                    }
+                }
+                .col-md-4 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    h1 {
+                        font: {
+                            weight: 100;
+                            size: 30px;
+                            family: "Lora", serif;
+                        }
+                    }
+                    hr {
+                        margin: 20px 0;
+                    }
+                    .container {
+                        .col {
+                            .col-md-4 {
+                                img {
+                                    width: 80px;
+                                }
+                            }
+                            &:nth-child(2) {
+                                margin: 20px auto;
+                            }
+                            .col-md-8 {
+                                justify-content: space-around;
+                                font: {
+                                    family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+                                        sans-serif;
+                                    size: 18px;
+                                }
+
+                                a {
+                                    color: #c53005;
+                                    text-decoration: underline;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        background-color: #00000033;
+        padding: 40px 0 50px 0;
+        .container {
+            .col {
+                .col-md-8 {
+                    h1 {
+                        font: {
+                            weight: 600 !important;
+                            size: 25px;
+                            family: "Lora", serif;
+                        }
+                        margin-bottom: 20px;
+                        span {
+                            font: {
+                                weight: 100 !important;
+                            }
+                            opacity: 0.7;
+                        }
+                    }
+                    p {
+                        font: {
+                            weight: 600 !important;
+                            size: 16px;
+                            family: "Lora", serif;
+                        }
+                        a {
+                            color: #c53005;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                .col-md-4 {
+                    h1 {
+                        font: {
+                            size: 25px;
+                            family: "Lora", serif;
+                        }
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
