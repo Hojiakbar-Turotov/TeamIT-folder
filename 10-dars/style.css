@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div.menu {
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+div.menu div.box {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+}
+div.menu div.box:first-child {
+  background: blue;
+}
+div.menu div.box:last-child {
+  background: chartreuse;
+}
+div.menu div.box:nth-child(2) {
+  background: pink;
+}
+div.menu div.box:nth-child(odd) {
+  background-color: purple;
+}
+div.menu div.box:nth-child(even) {
+  background-color: saddlebrown;
+}
+
+#chess {
+  display: flex;
+  width: 800px;
+  height: 800px;
+  border: 1px solid #000;
+  margin: auto;
+  flex-wrap: wrap;
+}
+#chess span {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+#chess span:nth-child(1), #chess span:nth-child(3), #chess span:nth-child(5), #chess span:nth-child(7), #chess span:nth-child(10), #chess span:nth-child(12), #chess span:nth-child(14), #chess span:nth-child(16), #chess span:nth-child(17), #chess span:nth-child(19), #chess span:nth-child(21), #chess span:nth-child(23), #chess span:nth-child(26), #chess span:nth-child(28), #chess span:nth-child(30), #chess span:nth-child(32), #chess span:nth-child(1), #chess span:nth-child(1), #chess span:nth-child(1), #chess span:nth-child(1), #chess span:nth-child(1), #chess span:nth-child(1) {
+  background-color: #000;
+}
+
+/*# sourceMappingURL=style.css.map */

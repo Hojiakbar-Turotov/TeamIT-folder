@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://muslimun.uz/wp-content/uploads/2020/06/tinchlikka.jpg");
+  font-family: Arial, Helvetica, sans-serif;
+}
+html body {
+  width: 650px;
+  margin: auto;
+  padding: 30px 0 30px 0;
+}
+html body section#header h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #094702;
+}
+html body section#header ul {
+  display: block;
+  margin: 20px auto;
+}
+html body section#header ul li {
+  margin: 0 auto;
+  width: 80px;
+  list-style: disc;
+}
+html body section#header ul li.registr {
+  width: 150px;
+}
+html body section#header ul li.tuti {
+  width: 65px;
+}
+html body section#header ul li.index {
+  width: 100px;
+}
+html body section#header ul li a {
+  color: #06022e;
+}
+html body section#img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+html body section#img div {
+  height: 200px;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 5px solid #000;
+}
+html body section#img p {
+  margin: 20px auto;
+  color: #970202;
+  font-size: 14px;
+  text-align: center;
+}
+html body section#location h3 {
+  text-align: center;
+}
+html body section#location iframe {
+  width: 450px;
+  display: block;
+  margin: 20px auto;
+}
+html body header#reg h2 {
+  text-align: center;
+  margin: 50px 0 auto;
+}
+html body section#registr-html {
+  text-align: center;
+  display: block;
+  width: 500px;
+  margin: auto;
+  background-color: #070a9e93;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+html body section#registr-html form input:not(#mushuk, #kuchuk, #tuti, #boy, #girl, #norobot) {
+  width: 70%;
+  height: 30px;
+}
+html body section#registr-html form input#image {
+  width: 50%;
+}
+html body section#registr-html form br {
+  height: 5px;
+}
+html body section#registr-html form div.btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  width: 70%;
+  margin: 10px auto;
+}
+html body section#registr-html form div.btn button {
+  width: 48%;
+  padding: 10px 0;
+  font-size: 20px;
+}
+html body ul#menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+html body ul#menu li {
+  list-style: none;
+  font-size: 25px;
+}
+html body ul#menu li a {
+  text-decoration: none;
+}
+html body #about {
+  margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+html body #about div {
+  align-content: center;
+}
+html body #about div.box:nth-child(1) {
+  width: 57%;
+}
+html body #about div.box:nth-child(1) h1 {
+  background-color: #ffffff99;
+  text-align: center;
+  margin: 30px auto;
+}
+html body #about div.box:nth-child(1) p {
+  color: #970202;
+}
+html body #about div.box:nth-child(2) {
+  width: 27%;
+  padding: 30px 0;
+}
+html body #about div.box:nth-child(2) img {
+  border: 3px solid #000;
+  border-radius: 30px;
+  width: 100%;
+}
+html body #about div.box:nth-child(2) p {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ro'yxatdan o'tish</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="reg">
+        <h2><a href="./index.html">Bosh sahifa</a></h2>
+    </header>
+    <section id="registr-html">
+        <br>
+        <form action="">
+            <label for="login">Login:</label> <br>
+            <input required type="text" id="login"> <br> <br>
+            <label for="name">Ism:</label> <br>
+            <input required type="text" id="name"> <br> <br>
+            <label for="firstname">Familya:</label> <br>
+            <input required type="text" id="firstname"> <br> <br>
+            <label for="happyday">Tug'ilgan kuningiz:</label> <br>
+            <input required type="date" id="happyday"> <br> <br>
+            <label for="love">Sizda qaysi hayvon bor</label>
+            <div id="love">
+                <label for="mushuk">Mushuk</label>
+                <input type="checkbox" name="" id="mushuk">
+                <label for="kuchuk">Kuchuk</label>
+                <input type="checkbox" name="" id="kuchuk">
+                <label for="tuti">To'ti</label>
+                <input type="checkbox" name="" id="tuti">
+            </div><br>
+            <label for="password">Parol yarating:</label> <br>
+            <input required type="password" id="password"> <br> <br>
+            <label for="tekshiruv">Parolni takrorlang:</label> <br>
+            <input required type="password" id="tekshiruv"> <br> <br>
+            <label for="gender">Jins</label> <br>
+            <input type="radio" name="gerder" id="boy">
+            <label for="boy">Erkak</label>
+            <input type="radio" name="gender" id="girl">
+            <label for="girl">Ayol</label><br><br>
+            <label required for="mail">Pochta manzilingiz:</label> <br>
+            <input type="email" id="mail"> <br> <br>
+            <label required for="tel">Telefon raqamingiz:</label> <br>
+            <input required type="tel" id="tel"> <br> <br>
+            <label for="image">Rasmingizni yuklang</label><br>
+            <input required type="file" name="" id="image"><br>
+            <label for="norobot">Men robot emasman</label>
+            <input type="checkbox" name="" id="norobot">
+            <div class="btn">
+                <button type="submit" onclick="alert(`Xabar jo'namadi`)">Jo'natish</button>
+                <button type="reset">Tozalash</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

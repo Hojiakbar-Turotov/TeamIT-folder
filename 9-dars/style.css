@@ -1,0 +1,42 @@
+p {
+    color: blue;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 10px;
+    word-spacing: 50px;
+    background-color: brown;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-align: center;
+    width: 1000px;
+    height: 50vh;
+    margin: auto;
+    border: 10px blue solid;
+}
+
+.btn {
+    text-transform: capitalize;
+    border: 1px black solid;
+    border-radius: 7px;
+    color: white;
+    background-color: #1eaaeb;
+    font-size: 50px;
+    border-bottom: 3px #0b2a47 solid;
+    margin-left: 500px;
+}
+.btn:hover{
+    border-bottom: 1px black solid;
+    margin-top: 2px;
+}
+p:nth-child(1){
+    background-color: yellow;
+}
+p:nth-child(2){
+    background-color: green;
+}
+p:nth-child(3){
+    background-color: magenta;
+}
+p:nth-child(4){
+    background-color: darkgray;
+}
